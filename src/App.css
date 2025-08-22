@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#d6faff);
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 550px;
+  margin: 50px auto;
+  background: #fafafa;
+  padding: 25px;
+  border-radius: 15px;
+  /* box-shadow: 0 6px 20px rgba(39, 39, 39, 0.08); */
+}
+
+/* ---------- Headings ---------- */
+h2 {
+  text-align: center;
+  color: #240c92;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+ h4 {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #000000;
+} 
+.balance {
+  text-align: center;
+  margin-top: 5%;
+}
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  gap: 15px;
+}
+
+.inc-exp-container>div {
+  flex: 1;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.inc {
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.exp {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* ---------- History List ---------- */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  transition: all 0.2s ease;
+}
+
+li:hover {
+  background: #f1f1f1;
+}
+
+li span {
+  font-weight: 600;
+}
+.edit-btn,
+.del-btn {
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.edit-btn {
+  background: #2196F3;
+}
+
+.edit-btn:hover {
+  background: #1976D2;
+}
+
+.del-btn {
+  background: #f44336;
+  margin-left: 5px;
+}
+
+.del-btn:hover {
+  background: #d32f2f;
+}
+form {
+  margin-top: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+form input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.4);
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+form button:hover {
+  background: #45a049;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .inc-exp-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
