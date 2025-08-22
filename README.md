@@ -27,3 +27,5 @@ The main goal of this project is to encourage better money management habits �
 💼 Freelancers/Small Business Owners – Keep an eye on cash flow and side income.
 
 #BudgetTracker #FinanceApp #MoneyManagement #ExpenseTracker #IncomeTracker #Budgeting #SaveMoney #TrackSpending #PersonalFinance #FinancialPlanning
+
+Video:https://drive.google.com/file/d/1KLX8fipIztwzgqgf99LECLrVK0-xCIiQ/view?usp=sharing
