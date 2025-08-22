@@ -28,4 +28,7 @@ The main goal of this project is to encourage better money management habits ðŸ§
 
 #BudgetTracker #FinanceApp #MoneyManagement #ExpenseTracker #IncomeTracker #Budgeting #SaveMoney #TrackSpending #PersonalFinance #FinancialPlanning
 
+<img width="1773" height="879" alt="Screenshot 2025-08-22 120727" src="https://github.com/user-attachments/assets/c7de85b3-9c39-4e29-8eca-d6fc48968dba" />
+
+
 Video:https://drive.google.com/file/d/1KLX8fipIztwzgqgf99LECLrVK0-xCIiQ/view?usp=sharing
